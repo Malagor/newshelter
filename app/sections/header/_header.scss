@@ -1,0 +1,36 @@
+/* =========== Header ==========*/
+
+.header {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__title {
+  margin-bottom: 10px;
+
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+
+  color: $base-pink;
+}
+
+.logo_subtitle {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+
+  color: $base-white;
+}
+
+/* /. =========== Header ==========*/

@@ -1,0 +1,49 @@
+
+%transition {
+  transition: all 0.3s;
+}
+
+//
+
+//responsive
+// font-size: rem(18);
+@function rem($px) {
+  @return $px / 16px + 0rem;
+}
+
+// Использую миксины из smart-grid
+//// @include xl{}
+////desktop
+//@mixin xl-block {
+//  @media screen and (max-width: $xl) {
+//    @content;
+//  }
+//}
+//
+//// laptop
+//@mixin lg-block {
+//  @media screen and (max-width: $lg) {
+//    @content;
+//  }
+//}
+//
+//// tablets
+//@mixin md-block {
+//  @media screen and (max-width: $md) {
+//    @content;
+//  }
+//}
+//
+////phones
+//@mixin sm-block {
+//  @media screen and (max-width: $sm) {
+//    @content;
+//  }
+//}
+//
+////little phones
+//@mixin xs-block {
+//  @media screen and (max-width: $xs) {
+//    @content;
+//  }
+//}
